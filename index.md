@@ -4,6 +4,10 @@
 
 Gorgo, queen of Sparta presents free textbooks for learning important concepts in computer engineering.
 
+Current books by Gorgo:
+
+- [C/C++ Courses](/cpp)
+
 ## What's special about Books by Gorgo
 
 Computer Engineering is evolving rapidly.
