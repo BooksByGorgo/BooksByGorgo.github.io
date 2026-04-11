@@ -9,14 +9,22 @@
 
 .page-header {
   position: relative;
+  height: 150px;
+  padding: 0 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header .project-name {
+  margin: 0;
 }
 
 .page-header::before {
   content: '';
   position: absolute;
   left: 2rem;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
   width: 150px;
   height: 150px;
   background-image: url('/images/books-by-gorgo.png');
@@ -25,7 +33,18 @@
   background-position: center;
 }
 
+@media screen and (max-width: 64em) {
+  .page-header {
+    padding: 0 4rem;
+  }
+}
+
 @media screen and (max-width: 42em) {
+  .page-header {
+    height: 80px;
+    padding: 0 1rem 0 6rem;
+  }
+
   .page-header::before {
     width: 80px;
     height: 80px;
