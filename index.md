@@ -25,13 +25,13 @@ The books are written to fit the learning objectives and schedules of our classe
 
 ## Why Books
 
-"Why aren't you doing TikTok videos? We are GenZ after all!"
+**"Why aren't you doing TikTok videos? We are GenZ after all!"**
 Nowadays students need to master Computer Engineering concepts.
 There was a time that mediocre graduates could get mediocre jobs.
 Now, AI can do modiocre jobs faster and cheaper, so student need to take it to the next level.
 You gotta learn how to read technical books to hone your understanding.
 Textbooks are a gentle introduction to reading technical writing.
 
-"But the book sucks!"
+**"But the book sucks!"**
 Please tell us how to make it better.
 It's an open source book, you can help make it rock.
