@@ -11,11 +11,11 @@ Current books by Gorgo:
 Computer Engineering is evolving rapidly.
 It's hard to keep up, so we are experimenting with community developed books that are constantly evolving.
 As things change, the books can change with the times.
-If see a problem with the book, tell us how to fix it and will will put in a contribution under your name.
+If you see a problem with the book, tell us how to fix it and we will put in a contribution under your name.
 
 **NO AI PLEASE!!!**
-We use AI to write, but work hard to avoid AI slop.
-We need human suggestions from humans --- AI generated suggestions don't help!
+We use AI to help write, but work hard to avoid AI slop.
+We need human suggestions from humans for humans --- AI generated suggestions don't help!
 
 ## For Spartans
 
@@ -28,7 +28,7 @@ The books are written to fit the learning objectives and schedules of our classe
 **"Why aren't you doing TikTok videos? We are GenZ after all!"**
 Nowadays students need to master Computer Engineering concepts.
 There was a time that mediocre graduates could get mediocre jobs.
-Now, AI can do modiocre jobs faster and cheaper, so student need to take it to the next level.
+Now, AI can do mediocre jobs faster and cheaper, so students need to take it to the next level.
 You gotta learn how to read technical books to hone your understanding.
 Textbooks are a gentle introduction to reading technical writing.
 
