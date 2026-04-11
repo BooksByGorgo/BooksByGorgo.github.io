@@ -1,5 +1,3 @@
-# Books by Gorgo
-
 ![Gorgo teaching students](images/gorgo-teaching.png)
 
 Gorgo, queen of Sparta presents free textbooks for learning important concepts in computer engineering.
