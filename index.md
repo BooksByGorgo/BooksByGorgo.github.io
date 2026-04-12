@@ -1,6 +1,6 @@
 ![Gorgo teaching students](images/gorgo-teaching.png)
 
-Gorgo, queen of Sparta presents free textbooks for learning important concepts in computer engineering.
+Gorgo, queen of Sparta, presents free textbooks for learning important concepts in computer engineering.
 
 Current books by Gorgo:
 
@@ -35,3 +35,4 @@ Textbooks are a gentle introduction to reading technical writing.
 **"But the book sucks!"**
 Please tell us how to make it better.
 It's an open source book, you can help make it rock.
+There is a GitHub repo associated for each book where you can raise an issue to make things better.
