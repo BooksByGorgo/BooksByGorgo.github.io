@@ -4,7 +4,8 @@ Gorgo, queen of Sparta, presents free textbooks for learning important concepts 
 
 Current books by Gorgo:
 
-- [C/C++ Courses](/cpp)
+- [C/C++ Books](/cpp)
+- [Go (golang) Books](/go)
 - [Supplemental Chapters to OSTEP for OS classes](/os)
 
 ## What's special about Books by Gorgo?
