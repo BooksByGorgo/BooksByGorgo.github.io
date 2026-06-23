@@ -1,0 +1,36 @@
+name: Generate sitemap
+
+on:
+  schedule:
+    - cron: '0 6 * * *'      # nightly refresh
+  workflow_dispatch:          # manual run
+  repository_dispatch:        # optional: sub-repos can trigger after deploy
+    types: [sitemap-refresh]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemap
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build merged sitemap and robots.txt
+        run: python3 .github/scripts/build_sitemap.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- sitemap.xml robots.txt; then
+            git add sitemap.xml robots.txt
+            git commit -m "chore: regenerate sitemap [skip ci]"
+            git push
+          else
+            echo "No sitemap changes."
+          fi
