@@ -6,6 +6,7 @@ Current books by Gorgo:
 
 - [C/C++ Books](/cpp)
 - [Go (golang) Books](/go)
+- [OpenTofu and Terraform Books](/opentofu)
 - [Supplemental Chapters to OSTEP for OS classes](/os)
 
 ## What's special about Books by Gorgo?

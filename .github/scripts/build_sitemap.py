@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build a unified sitemap.xml + robots.txt for gorgo.dev.
 
-gorgo.dev is composed of four GitHub Pages deployments under one apex domain.
-The three content sites (/cpp, /os, /go) each emit their own sitemap via the
+gorgo.dev is composed of five GitHub Pages deployments under one apex domain.
+The four content sites (/cpp, /os, /go, /opentofu) each emit their own sitemap via the
 jekyll-sitemap plugin. This script fetches those live per-site sitemaps, merges
 their <url> entries with the apex landing page, and writes a single flat
 sitemap.xml plus a robots.txt that points crawlers at it.
@@ -21,6 +21,7 @@ SUBSITE_SITEMAPS = [
     f"{SITE}/cpp/sitemap.xml",
     f"{SITE}/os/sitemap.xml",
     f"{SITE}/go/sitemap.xml",
+    f"{SITE}/opentofu/sitemap.xml",
 ]
 # Pages owned directly by the apex repo (BooksByGorgo.github.io).
 APEX_URLS = [f"{SITE}/"]
