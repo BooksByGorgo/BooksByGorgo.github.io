@@ -8,6 +8,7 @@ Current books by Gorgo:
 - [Go (golang) Books](/go)
 - [OpenTofu and Terraform Books](/opentofu)
 - [Supplemental Chapters to OSTEP for OS classes](/os)
+- [way of the hax0r: hacker skills, from n00b to console punk](/hacker) (beta)
 
 ## What's special about Books by Gorgo?
 
